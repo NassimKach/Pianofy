@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oswald:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.main {
+  min-height: 100vh;
+  background: url(/img/main-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.desc {
+  font-size: 10rem;
+  font-family: Abril Fatface;
+}
+
+.playBtn {
+  background: white;
+  color: #000;
+  font-family: Oswald;
+  font-style: normal;
+  border: none;
+  padding: 1rem 5rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.piano {
+  background: #101214;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.pianoKey {
+  width: 61px;
+  height: 463px;
+  background: white;
+  margin: 0 2rem;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
